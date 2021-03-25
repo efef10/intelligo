@@ -1,7 +1,5 @@
-import UsersController from './users';
-import GamesController from './games';
+import * as dataConvertionsController from './dataCovertionsController';
 
 export {
-    UsersController,
-    GamesController
+    dataConvertionsController,
 };

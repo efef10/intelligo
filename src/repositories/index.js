@@ -1,6 +1,5 @@
-import UsersRepository from './users';
-// import TranslateService from './translate';
+import * as fileReaderRepository from './fileReaderRepository';
 
-export {UsersRepository, 
-    // TranslateService
+export {
+    fileReaderRepository,
 };

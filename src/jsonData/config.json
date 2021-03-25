@@ -1,0 +1,702 @@
+[
+    {
+        "fieldKey": "lawsuitAmount",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "filingDate",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "dispositionDate",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "judge",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "referringJudge",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "magistrate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "jury",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.street1",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.street2",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.city",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.county",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.state",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.zip",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.zipExtension",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.country",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.type",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.apartment",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.poBox",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.stateUSPSCode",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.firstReported",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.lastReported",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.full",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.longtitude",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyAddress.latitude",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.APN",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.accountNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.parcelBlockNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.parcelLotBorough",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.parcelLotNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.finedAmount",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.feeAMount",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.arrestAgency",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.arrestReason",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.arrestDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.arrestDisposition",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.bailerName",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.arrest.bailSet",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.plea.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.plea.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.plea.pleaDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.plea.pleaInfo",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.probation.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.probation.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.probation.probationAgency",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.probation.probationBeginDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.probation.probationScheduledEndDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceBeginDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceCounty",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceDescription",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceEffectiveDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceExpirationDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceStatus",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.sentence.sentenceNotes",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.paroleLocation",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.paroleOfficer",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.paroleProjectedDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.paroleReleaseDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.paroleTerminationReason",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "criminal.parole.probationStatus",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.name",
+        "require": true,
+        "visible": true
+    },
+    {
+        "fieldKey": "legalSource.county",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.state",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.publicationDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.cache",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.link",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "furtherInformation",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "office",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "centralityScore",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.collateral",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "party",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "docketReport",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.parcelLotBorough",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.parcelBlockNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "isVoluntary",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.propertyType",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "relatedProperty.partialLot",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.expirationDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.parcelLotNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "legalSource.jurisdiction",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.satisfactionDate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.partialLot",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.registerNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.city",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.country",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.county",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.full",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.state",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.street1",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.street2",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.type",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.zip",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyType",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "popularityScore",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "caseCategory",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "importance",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "courtType",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "caseType",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "courtName",
+        "require": true,
+        "visible": true
+    },
+    {
+        "fieldKey": "county",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "caseName",
+        "require": true,
+        "visible": true
+    },
+    {
+        "fieldKey": "caseNum",
+        "require": true,
+        "visible": true
+    },
+    {
+        "fieldKey": "caseStatus",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "category",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "subcategory",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "inRe",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "outcome",
+        "require": false,
+        "visible": true
+    },
+    {
+        "fieldKey": "lien.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.updatedAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.createdAt",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.zipExtension",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.apartment",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.poBox",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.stateUSPSCode",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.firstReported",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.lastReported",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.longtitude",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.propertyAddress.latitude",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.APN",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lien.relatedProperty.accountNumber",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "lastSourceUpdate",
+        "require": false,
+        "visible": false
+    },
+    {
+        "fieldKey": "caseSummary",
+        "require": false,
+        "visible": true
+    }
+]

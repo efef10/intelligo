@@ -1,6 +1,5 @@
-import UsersService from './users';
-// import TranslateService from './translate';
+import * as dataCovertorService from './dataCovertorService';
 
-export {UsersService, 
-    // TranslateService
+export {
+    dataCovertorService, 
 };
