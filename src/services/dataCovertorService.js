@@ -1,21 +1,22 @@
 import {fileReaderRepository} from '../repositories'
 
-
+const generateValue = (fieldKey, schema, data, isRequired, isVisible) => {
+    let json = {};
+    if(schema && schema[fieldKey])
+        json = JSON.parse(schema[fieldKey]);
+    
+    json.value = (data && (data[fieldKey] || ""));
+    json.required = isRequired;
+    json.visibility = isVisible; 
+    return JSON.stringify(json);
+}
 
 const recursiveFindData = (keysArr, schema, data, acc, isRequired, isVisible) => {
     const fieldKey = keysArr[0];
 
     if(keysArr.length === 1){
-        let json = {};
-        if(schema && schema[fieldKey])
-            json = JSON.parse(schema[fieldKey]);
-        
-        json.value = (data && (data[fieldKey] || ""));
-        json.required = isRequired;
-        json.visibility = isVisible; 
-
         return {
-           [fieldKey]: JSON.stringify(json),
+           [fieldKey]: generateValue(fieldKey, schema, data, isRequired, isVisible),
         }
     }
     return {
